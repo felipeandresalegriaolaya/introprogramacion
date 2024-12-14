@@ -1,0 +1,100 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="wdth=devide-widf,initial-scale=1,0">
+    <title>fomulario basico</title>
+
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        <background-color:#f4f4f4;
+        margin: 0,
+        padding: 20px
+
+    }
+    .container{
+        max-width: 600px
+        margin: 0% auto;
+        padding: 20px;
+        background-color
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgb(0,0,0,1);
+    }
+
+
+    h1{
+        text-align: center;
+        color:#333;
+    }
+    label{
+        display: block;
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+    <body>
+        input, textarea,select{
+            widht:100%;
+            padding: 100px
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px
+        }
+
+        input[type="sumit"]{
+            background-color: #4caf50;
+            color:white;
+            border:none;
+            cursor: pointer;
+        }
+
+        input[type="sumit"]:hover{
+            background-color: #45a049;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container"
+        <h1>formulario</h1>
+        <form action="#"method="post">
+            <label for="nombre">nombre</label>
+            <input type="text"id="nombre"name=nombre requerido"
+            <laber for="email">Email</laber>
+            <input type="text" id="Email"name="email"requered>
+            <label for=""telefono>Telefono</label>
+            <input type="text id="telefono" name="telefono"requered
+            <label for ="mensaje">mensaje</label>
+            <textarea id="mensaje" name="mensaje"=rows="4"required></textarea>
+            <label for="pais"></label>
+            <select id="pais" name="pais"requered>
+                <option value="diseble selected">seleciones su pais</option>
+                <option value="es">españa</option>
+                <option value="co">colombia</option>
+                <option value="mx">mexico</option>
+                <option value="eu">europa</option>
+            </select>
+            <input type="sumit" value="enviar">
+        </form>
+    </div>
+</body>
+</html>
+
+        
+        
+
+
+
+    
+
+
+    
+    
+
+        
+            
+            
+            
+            
+
+        
+        
